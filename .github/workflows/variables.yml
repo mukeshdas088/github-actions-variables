@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Echo ACCESS_ID
-      run: echo ${{ vars.ACCESS_ID }}
+    - name: Display Access ID
+      run: echo "The Access ID is ${{ vars.ACCESS_ID }}"
